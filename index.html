@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title></title>
+		<script src="js/Main.js" type="text/javascript" charset="utf-8"></script>
+		<link rel="stylesheet" type="text/css" href="css/Main.css"/>
+	</head>
+	<body>
+		<div id="allMain">
+			<img src="img/未标题-1.png" class="bnner"/>
+			<div class="choosemid">
+				<span>请选择</span>
+				<select id="years" onchange="fn_yearOnclick()">
+					<option value="-1">--年份--</option>
+				</select>
+				<select id="months" onchange="fn_days(fn_days1(this.value))">
+					<option value="-1">--月份--</option>
+				</select>
+				<select id="days">
+					<option value="-1">--日--</option>
+				</select>
+				<input type="button"  id="onlyButton" value="计算星象" onclick="star1()"/>
+				<div id="chooseStar" >
+					<span>你的星座：</span>
+					<p class="star"></p>
+					<span>你的生肖：</span>
+					<p class="star1"></p>
+				</div>
+				<div id="midMain" class="Cfloat">
+					<div class="needimg"></div>
+					<img src="img/fd.png"/>
+					<div class="needMain"></div>
+				</div>
+				
+			</div>
+			<div class="bottom">
+				<p>Copyright © 1998 - 2016 TRDAN . All Rights Reserved</p>
+				<p>汇道公司 版权所有</p>
+			</div>
+		</div>
+	</body>
+</html>

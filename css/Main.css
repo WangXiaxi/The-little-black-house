@@ -1,0 +1,79 @@
+﻿*{
+	background-image: url(../img/fdsa.png);
+	color: wheat;
+	padding: 0;
+	margin: 0;
+}
+#allMain{
+	width: 90%;
+	height: 800px;
+	margin: 0 auto;
+	text-align: center;
+}
+.bnner{
+	height: 200px;
+	width: 200px;
+	margin-top: 50px;
+}
+.Cfloat{
+	clear: both;
+}
+.choosemid select{
+	height: 30px;
+	line-height: 30px;
+	width: 200px;
+	border: 1px solid wheat;	
+}
+#chooseStar p{
+	line-height: 30px;
+	display: inline-block;
+	width: 200px;
+	height: 30px;
+	text-align: center;
+	border-bottom: 1px solid wheat;
+	float: left;
+	text-shadow: 1px 1px 0px brown;
+}
+#chooseStar{
+	margin: 0 auto;
+	margin-top: 40px;
+	height: 80px;
+	width: 565px;
+}
+#chooseStar span{
+	padding-top:6px ;
+	float: left;
+}
+#midMain img{
+	width: 200px;
+	height: 200px;
+	margin:0px 50px;
+	float: left;
+	opacity: 0.5;
+}
+#midMain div{
+	width: 200px;
+	height: 200px;
+	margin:0px 50px;
+	background-size:200px 200px;
+	float: left;
+}
+#midMain .needMain{
+	writing-mode:tb-rl;
+	line-height: 30px;
+	text-align: left;
+	text-indent:2em;
+	text-shadow: 1px 1px 0px brown;
+}
+#midMain{
+	height: 200px;
+	width: 900px;
+	margin: 0 auto;
+	margin-top:50px ;
+}
+
+.bottom{
+	margin-top: 80px;
+	font-family: "微软雅黑";
+}
+
